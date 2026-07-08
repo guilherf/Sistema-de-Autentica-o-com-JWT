@@ -1,4 +1,4 @@
-package net.bifewagyu.authenticationJWT;
+package net.bifewagyu.authenticationJWT.Status;
 
 public enum StatusLoginJwt {
     SUCESSO("ENTRADA CONCLUIDA COM SUCESSO"),

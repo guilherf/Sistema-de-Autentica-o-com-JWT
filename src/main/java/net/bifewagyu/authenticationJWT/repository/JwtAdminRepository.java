@@ -1,8 +1,8 @@
 package net.bifewagyu.authenticationJWT.repository;
 
 
-import net.bifewagyu.authenticationJWT.model.AdminLoginJwt;
+import net.bifewagyu.authenticationJWT.model.AdminJwt;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface JwtAdminRepository extends JpaRepository<AdminLoginJwt, Long> {
+public interface JwtAdminRepository extends JpaRepository<AdminJwt, Long> {
 }

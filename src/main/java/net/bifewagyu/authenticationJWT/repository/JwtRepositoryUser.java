@@ -1,9 +1,9 @@
 package net.bifewagyu.authenticationJWT.repository;
 
-import net.bifewagyu.authenticationJWT.model.UserLoginJwt;
+import net.bifewagyu.authenticationJWT.model.UserJwt;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface JwtRepository extends JpaRepository<UserLoginJwt, Long> {
+public interface JwtRepositoryUser extends JpaRepository<UserJwt, Long> {
 
 
 

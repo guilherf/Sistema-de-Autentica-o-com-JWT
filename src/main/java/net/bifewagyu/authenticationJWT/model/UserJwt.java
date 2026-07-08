@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 
 @Entity
 @Table(name = "user_model")
-public class UserLoginJwt {
+public class UserJwt {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
